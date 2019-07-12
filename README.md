@@ -1,10 +1,10 @@
 # Machine-Learning-App
 How to implement machine learning on Xcode Project
 
-Made with CoreML Apple Framework
-Machine learning model used : MobileNetV2.mlmodel
-Design Inspiration took from : Snapchat and Yuka
-Date V1 : 12 July 2019 
+###### Made with CoreML Apple Framework
+###### Machine learning model used : MobileNetV2.mlmodel
+###### Design Inspiration took from : Snapchat and Yuka
+###### Date V1 : 12 July 2019 
 
 More informations are coming soon ! :)
 
