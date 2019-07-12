@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2377E3F622D64AFA00E20CDF /* ImagePickerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2377E3F522D64AFA00E20CDF /* ImagePickerExtension.swift */; };
+		23BA8E4322D898C6002C663A /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BA8E4222D898C6002C663A /* DetailsViewController.swift */; };
+		23BA8E4522D89D95002C663A /* TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BA8E4422D89D95002C663A /* TableViewExtension.swift */; };
 		23BC75C222D1FB5C0046A3EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BC75C122D1FB5C0046A3EC /* AppDelegate.swift */; };
 		23BC75C422D1FB5C0046A3EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BC75C322D1FB5C0046A3EC /* ViewController.swift */; };
 		23BC75C722D1FB5C0046A3EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23BC75C522D1FB5C0046A3EC /* Main.storyboard */; };
 		23BC75C922D1FB5D0046A3EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23BC75C822D1FB5D0046A3EC /* Assets.xcassets */; };
 		23BC75CC22D1FB5D0046A3EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23BC75CA22D1FB5D0046A3EC /* LaunchScreen.storyboard */; };
+		23BC75D522D205DB0046A3EC /* CameraExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BC75D422D205DB0046A3EC /* CameraExtension.swift */; };
+		23BC75D722D20D0A0046A3EC /* DesignExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BC75D622D20D0A0046A3EC /* DesignExtension.swift */; };
+		23C6586522D794F100619E60 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 23C6586422D794F100619E60 /* MobileNetV2.mlmodel */; };
+		23C6586722D7954C00619E60 /* CoreMLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C6586622D7954C00619E60 /* CoreMLExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2377E3F522D64AFA00E20CDF /* ImagePickerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerExtension.swift; sourceTree = "<group>"; };
+		23BA8E4222D898C6002C663A /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		23BA8E4422D89D95002C663A /* TableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExtension.swift; sourceTree = "<group>"; };
 		23BC75BE22D1FB5C0046A3EC /* CoreML App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreML App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23BC75C122D1FB5C0046A3EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23BC75C322D1FB5C0046A3EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,10 @@
 		23BC75C822D1FB5D0046A3EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23BC75CB22D1FB5D0046A3EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23BC75CD22D1FB5D0046A3EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23BC75D422D205DB0046A3EC /* CameraExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraExtension.swift; sourceTree = "<group>"; };
+		23BC75D622D20D0A0046A3EC /* DesignExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignExtension.swift; sourceTree = "<group>"; };
+		23C6586422D794F100619E60 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		23C6586622D7954C00619E60 /* CoreMLExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,37 @@
 		23BC75C022D1FB5C0046A3EC /* CoreML App */ = {
 			isa = PBXGroup;
 			children = (
+				23C6586322D7936400619E60 /* CoreML Model */,
 				23BC75C122D1FB5C0046A3EC /* AppDelegate.swift */,
 				23BC75C322D1FB5C0046A3EC /* ViewController.swift */,
+				23BA8E4222D898C6002C663A /* DetailsViewController.swift */,
+				23BC75D322D205B20046A3EC /* Extension */,
 				23BC75C522D1FB5C0046A3EC /* Main.storyboard */,
 				23BC75C822D1FB5D0046A3EC /* Assets.xcassets */,
 				23BC75CA22D1FB5D0046A3EC /* LaunchScreen.storyboard */,
 				23BC75CD22D1FB5D0046A3EC /* Info.plist */,
 			);
 			path = "CoreML App";
+			sourceTree = "<group>";
+		};
+		23BC75D322D205B20046A3EC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				23BC75D422D205DB0046A3EC /* CameraExtension.swift */,
+				23BC75D622D20D0A0046A3EC /* DesignExtension.swift */,
+				2377E3F522D64AFA00E20CDF /* ImagePickerExtension.swift */,
+				23C6586622D7954C00619E60 /* CoreMLExtension.swift */,
+				23BA8E4422D89D95002C663A /* TableViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		23C6586322D7936400619E60 /* CoreML Model */ = {
+			isa = PBXGroup;
+			children = (
+				23C6586422D794F100619E60 /* MobileNetV2.mlmodel */,
+			);
+			path = "CoreML Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23BA8E4522D89D95002C663A /* TableViewExtension.swift in Sources */,
+				23C6586522D794F100619E60 /* MobileNetV2.mlmodel in Sources */,
 				23BC75C422D1FB5C0046A3EC /* ViewController.swift in Sources */,
 				23BC75C222D1FB5C0046A3EC /* AppDelegate.swift in Sources */,
+				23BA8E4322D898C6002C663A /* DetailsViewController.swift in Sources */,
+				23BC75D522D205DB0046A3EC /* CameraExtension.swift in Sources */,
+				2377E3F622D64AFA00E20CDF /* ImagePickerExtension.swift in Sources */,
+				23BC75D722D20D0A0046A3EC /* DesignExtension.swift in Sources */,
+				23C6586722D7954C00619E60 /* CoreMLExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
