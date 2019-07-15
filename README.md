@@ -7,7 +7,7 @@ How to implement machine learning on Xcode Project
 - [x] Date V1 : 12 July 2019
 
 A good gif is worth more than a long speech. :)
-![Gif Presentation](https://user-images.githubusercontent.com/46055179/61219228-d2def880-a724-11e9-8705-a61e8ee89155.gif)
+Coming soon
 
 Some screenshots :
 ![IMG_1511](https://user-images.githubusercontent.com/46055179/61126440-775f0180-a4bd-11e9-8caf-c3ccbb20b81a.PNG)
