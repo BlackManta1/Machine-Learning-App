@@ -2,9 +2,10 @@
 How to implement machine learning on Xcode Project
 
 - [x] Made with **CoreML Apple Framework**
-- [x] Machine learning model used : MobileNetV2.mlmodel (More details : [here](https://developer.apple.com/machine-learning/models/))
+- [x] Machine learning model used : MobileNetV2.mlmodel (More details : <a href="https://developer.apple.com/machine-learning/models/" target="_blank">Here</a>)
 - [x] Design Inspiration took from : Snapchat and Yuka (I am a huge fan of these two apps)
 - [x] Date V1 : 12 July 2019
+
 
 
 Some screenshots worth more than a long speech. :)
