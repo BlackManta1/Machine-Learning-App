@@ -6,12 +6,9 @@ How to implement machine learning on Xcode Project
 - [x] Made with **CoreML Apple Framework**
 - [x] Machine learning model used : MobileNetV2.mlmodel (More details : <a href="https://developer.apple.com/machine-learning/models/" target="_blank">Here</a>)
 
-## Screenshots:
-Some screenshots worth more than a long speech. :)
-
+## Demo:
 <p align="left">
-<img src="https://user-images.githubusercontent.com/46055179/61126440-775f0180-a4bd-11e9-8caf-c3ccbb20b81a.PNG" width="250">
-<img src="https://user-images.githubusercontent.com/46055179/61126438-775f0180-a4bd-11e9-953c-589cfacbd040.PNG" width="250">
+<img src="https://user-images.githubusercontent.com/46055179/63768521-7a814600-c8e1-11e9-91f1-132f166a3d52.gif" width="250">
 </p>
 
 ## Credits:
